@@ -1,0 +1,27 @@
+<!-- ============================================================
+     NAVBAR (reused on every page via js/include.js)
+     - Edit links/labels here once and every page updates.
+     - Active link highlighting is handled in js/main.js using the
+       data-page attribute on <body> in each page.
+     ============================================================ -->
+<div class="container header-inner">
+  <a href="index.html" class="logo">
+    <span class="logo-icon">&lt;/&gt;</span>
+    <span class="logo-text">Chris's <strong>Tech Portfolio</strong></span>
+  </a>
+
+  <nav class="main-nav" id="mainNav">
+    <ul class="nav-list">
+      <li><a href="index.html" data-page="home">Home</a></li>
+      <li><a href="projects.html" data-page="projects">Projects</a></li>
+      <li><a href="refurbishments.html" data-page="refurbishments">Refurbishments</a></li>
+      <li><a href="networking.html" data-page="networking">Networking</a></li>
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">
+    <span></span><span></span><span></span>
+  </button>
+</div>
